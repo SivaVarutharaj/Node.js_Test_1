@@ -1,0 +1,25 @@
+{
+  "name": "node.js_basics",
+  "version": "1.0.0",
+  "description": "Its contain Express.js Fundamental,Rest API,DB Connection with Drizzle ORM",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SivaVarutharaj/Node.js_Test_1.git"
+  },
+  "license": "ISC",
+  "author": "Siva",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.17.0",
+    "body-parser": "^2.2.2",
+    "drizzle-orm": "^0.45.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.9"
+  }
+}
