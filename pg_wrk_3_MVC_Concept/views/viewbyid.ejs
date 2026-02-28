@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>welcome</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">FIRST_NAME</th>
+          <th scope="col">LAST_NAME</th>
+          <th scope="col">AGE</th>
+          <th scope="col">PHONE</th>
+          <th scope="col">EMAIL</th>
+          <!--  <th scope="col">EDIT</th>
+          <th scope="col">DELETE</th> -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th><%= users.id %></th>
+          <td><%= users.firstName %></td>
+          <td><%= users.lastName %></td>
+          <td><%= users.age %></td>
+          <td><%= users.phone %></td>
+          <td><%= users.email %></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
